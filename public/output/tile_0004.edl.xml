@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.11">
+  <resources>
+    <format id="r1" frameDuration="1/24s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+    <asset id="a1" name="shot_01" uid="tile_0004_shot_01" src="file:///render/tile_0004/shot_01.mov" start="0s" duration="72/24s" hasVideo="1" format="r1"/>
+    <asset id="a2" name="shot_02" uid="tile_0004_shot_02" src="file:///render/tile_0004/shot_02.mov" start="0s" duration="216/24s" hasVideo="1" format="r1"/>
+    <asset id="a3" name="shot_03" uid="tile_0004_shot_03" src="file:///render/tile_0004/shot_03.mov" start="0s" duration="216/24s" hasVideo="1" format="r1"/>
+    <asset id="a4" name="shot_04" uid="tile_0004_shot_04" src="file:///render/tile_0004/shot_04.mov" start="0s" duration="216/24s" hasVideo="1" format="r1"/>
+  </resources>
+  <library>
+    <event name="tile_0004">
+      <project name="tile_0004">
+        <sequence format="r1" duration="720/24s" tcStart="0/1s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+            <clip name="shot_01" ref="a1" duration="72/24s" offset="0/24s" format="r1">
+              <note>Establishing: A hungry mouse discovers a giant cheese wedge in the kitchen — scene 4. Character enters frame and spots prop.</note>
+            </clip>
+            <clip name="shot_02" ref="a2" duration="216/24s" offset="72/24s" format="r1">
+              <note>Character reacts with surprise, eyes widen.</note>
+            </clip>
+            <clip name="shot_03" ref="a3" duration="216/24s" offset="288/24s" format="r1">
+              <note>Character delivers second dialogue line, leans forward.</note>
+            </clip>
+            <clip name="shot_04" ref="a4" duration="216/24s" offset="504/24s" format="r1">
+              <note>Action beat / gag. Character takes a bite; crumbs fall. Ends on HOOK POSE facing camera-right.</note>
+            </clip>
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>
