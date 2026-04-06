@@ -13,7 +13,7 @@
  *   --count       <n>     Number of tiles to generate  (default: 100)
  *   --start       <n>     First tile number             (default: 1)
  *   --character   <id>    mouse_01 | investor_gadget    (default: mouse_01)
- *   --out         <dir>   Output directory              (default: public/output)
+ *   --out         <dir>   Output directory              (default: public)
  *   --3d                  Include 3-D physics maps
  *   --skip-existing       Skip tiles whose .shots.yaml already exists
  *
@@ -55,7 +55,7 @@ function hasFlag(flag: string): boolean {
 const count        = Math.max(1, parseInt(getArg('--count',     '100'), 10));
 const startNum     = Math.max(1, parseInt(getArg('--start',     '1'),   10));
 const characterId  = getArg('--character', 'mouse_01');
-const outDir       = getArg('--out',       'public/output');
+const outDir       = getArg('--out',       'public');
 const enable3D     = hasFlag('--3d');
 const skipExisting = hasFlag('--skip-existing');
 

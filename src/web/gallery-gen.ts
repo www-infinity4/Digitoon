@@ -12,8 +12,8 @@
  *   npx ts-node -P tsconfig.engine.json src/web/gallery-gen.ts [options]
  *
  * Options:
- *   --input  <dir>   Directory containing tile artifacts  (default: public/output)
- *   --output <file>  Path for the generated HTML file     (default: public/output/gallery.html)
+ *   --input  <dir>   Directory containing tile artifacts  (default: public)
+ *   --output <file>  Path for the generated HTML file     (default: public/gallery.html)
  *
  * What it reads from the output directory:
  *   <tile>.verify.json   → 4-hash envelope + tile ID
@@ -38,7 +38,7 @@ function getArg(flag: string, fallback: string): string {
   return fallback;
 }
 
-const inputDir   = getArg('--input',  'public/output');
+const inputDir   = getArg('--input',  'public');
 const outputFile = getArg('--output', path.join(inputDir, 'gallery.html'));
 
 // ---------------------------------------------------------------------------

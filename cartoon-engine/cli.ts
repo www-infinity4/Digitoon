@@ -10,7 +10,7 @@
  *   --character   <id>      Character from registry   (default: mouse_01)
  *                           Choices: mouse_01 | investor_gadget
  *   --premise     <string>  One-sentence story premise
- *   --out         <dir>     Output directory          (default: sample-output)
+ *   --out         <dir>     Output directory          (default: public)
  *   --storyboard            Print ASCII storyboard to stdout
  *   --3d                    Include 3-D physics maps in output
  *
@@ -66,7 +66,7 @@ const premise      = getArg(
     ? 'Investor Gadget rescues a bystander in the parking lot'
     : 'A hungry mouse discovers a giant cheese wedge in the kitchen'
 );
-const outDir         = getArg('--out', 'public/output');
+const outDir         = getArg('--out', 'public');
 const printStoryboard = hasFlag('--storyboard');
 const enable3D        = hasFlag('--3d');
 

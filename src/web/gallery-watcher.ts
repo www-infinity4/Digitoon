@@ -8,7 +8,7 @@
  *   npx ts-node -P tsconfig.engine.json src/web/gallery-watcher.ts [options]
  *
  * Options:
- *   --input  <dir>   Directory to watch   (default: public/output)
+ *   --input  <dir>   Directory to watch   (default: public)
  *   --output <file>  Gallery HTML path    (default: <input>/gallery.html)
  *
  * How it works:
@@ -24,7 +24,7 @@
  *
  *   Terminal A:  npx ts-node … cartoon-engine/cli.ts --character investor_gadget
  *   Terminal B:  npx ts-node … src/web/gallery-watcher.ts
- *   Browser:     open public/output/gallery.html  (and keep the tab open)
+ *   Browser:     open public/gallery.html  (and keep the tab open)
  */
 
 import fs   from 'fs';
@@ -41,7 +41,7 @@ function getArg(flag: string, fallback: string): string {
   return fallback;
 }
 
-const inputDir   = getArg('--input',  'public/output');
+const inputDir   = getArg('--input',  'public');
 const outputFile = getArg('--output', path.join(inputDir, 'gallery.html'));
 
 // ---------------------------------------------------------------------------
