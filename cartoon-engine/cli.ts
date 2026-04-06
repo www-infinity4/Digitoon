@@ -66,7 +66,7 @@ const premise      = getArg(
     ? 'Investor Gadget rescues a bystander in the parking lot'
     : 'A hungry mouse discovers a giant cheese wedge in the kitchen'
 );
-const outDir         = getArg('--out', 'sample-output');
+const outDir         = getArg('--out', 'public/output');
 const printStoryboard = hasFlag('--storyboard');
 const enable3D        = hasFlag('--3d');
 
