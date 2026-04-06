@@ -10,7 +10,9 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "generate": "ts-node -P tsconfig.engine.json cartoon-engine/cli.ts",
-    "generate:gadget": "ts-node -P tsconfig.engine.json cartoon-engine/cli.ts --character investor_gadget"
+    "generate:gadget": "ts-node -P tsconfig.engine.json cartoon-engine/cli.ts --character investor_gadget",
+    "gallery": "ts-node -P tsconfig.engine.json src/web/gallery-gen.ts",
+    "gallery:watch": "ts-node -P tsconfig.engine.json src/web/gallery-watcher.ts"
   },
   "dependencies": {
     "lucide-react": "^0.577.0",

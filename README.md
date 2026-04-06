@@ -23,11 +23,17 @@ This repository contains the **Digitoon Cartoon Prompt Engine** — a determinis
 ```bash
 npm install
 
-# Generate a tile (mouse character — default)
+# Generate a tile (mouse character — default) → writes to public/output/
 npm run generate
 
 # Generate an Investor Gadget tile
 npm run generate:gadget
+
+# Rebuild the static film-cell gallery (public/output/gallery.html)
+npm run gallery
+
+# Watch public/output/ and auto-rebuild gallery on every new tile
+npm run gallery:watch
 
 # Run all unit tests
 npm test
