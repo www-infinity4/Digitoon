@@ -1,0 +1,39 @@
+
+tile_0004  ·  ASCII Storyboard Preview
+════════════════════════════════════════════════════
+
+┌─ SHOT_01 · wide / eye_level ──────────────────────┐
+│                                                  │
+│                                                  │
+│                        ◄────────────[C]          │
+│                                                  │
+│                                                  │
+└ (0.80,0.50) → (0.50,0.50) · 72f · 3s ────────────┘
+  → Establishing: A hungry mouse discovers a giant ch…
+
+┌─ SHOT_02 · medium / eye_level ♫ ──────────────────┐
+│                                                  │
+│                                                  │
+│                        [C]                       │
+│                                                  │
+│                                                  │
+└ (0.50,0.50) → (0.50,0.50) · 216f · 9s ───────────┘
+  → Character reacts with surprise, eyes widen.
+
+┌─ SHOT_03 · medium_close / slight_low ♫ ───────────┐
+│                                                  │
+│                                                  │
+│                        [C]                       │
+│                                                  │
+│                                                  │
+└ (0.50,0.50) → (0.45,0.50) · 216f · 9s ───────────┘
+  → Character delivers second dialogue line, leans fo…
+
+┌─ SHOT_04 · wide / eye_level ──────────────────────┐
+│                                                  │
+│                                                  │
+│                        [C]─►                     │
+│                                                  │
+│                                                  │
+└ (0.50,0.50) → (0.60,0.50) · 216f · 9s ───────────┘
+  → Action beat / gag. Character takes a bite; crumbs…

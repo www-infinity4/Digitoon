@@ -1,0 +1,18 @@
+TITLE:   tile_0003
+FCM: NON-DROP FRAME
+
+001  AX       V     C        00:00:00:00 00:00:03:00 00:00:00:00 00:00:03:00
+* FROM CLIP NAME: shot_01
+* COMMENT: Establishing: A hungry mouse discovers a giant cheese wedge…
+
+002  AX       V     C        00:00:03:00 00:00:12:00 00:00:03:00 00:00:12:00
+* FROM CLIP NAME: shot_02
+* COMMENT: Character reacts with surprise, eyes widen.
+
+003  AX       V     C        00:00:12:00 00:00:21:00 00:00:12:00 00:00:21:00
+* FROM CLIP NAME: shot_03
+* COMMENT: Character delivers second dialogue line, leans forward.
+
+004  AX       V     C        00:00:21:00 00:00:30:00 00:00:21:00 00:00:30:00
+* FROM CLIP NAME: shot_04
+* COMMENT: Action beat / gag. Character takes a bite; crumbs fall. End…

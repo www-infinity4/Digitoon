@@ -11,6 +11,8 @@
     "test:coverage": "jest --coverage",
     "generate": "ts-node -P tsconfig.engine.json cartoon-engine/cli.ts",
     "generate:gadget": "ts-node -P tsconfig.engine.json cartoon-engine/cli.ts --character investor_gadget",
+    "generate:bulk": "ts-node -P tsconfig.engine.json cartoon-engine/bulk-generate.ts",
+    "generate:bulk:gadget": "ts-node -P tsconfig.engine.json cartoon-engine/bulk-generate.ts --character investor_gadget",
     "gallery": "ts-node -P tsconfig.engine.json src/web/gallery-gen.ts",
     "gallery:watch": "ts-node -P tsconfig.engine.json src/web/gallery-watcher.ts"
   },
