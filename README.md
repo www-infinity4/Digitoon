@@ -80,3 +80,4 @@ Every `shot_04` ends on a **hook pose** that matches the opening of the next til
 | `/hydrogen-host` | Generate emoji ID, manage contacts |
 | `/visualizer` | Interactive 3D cube, signal wave, P2P network |
 | `/game` | Token game — stages, stars, bugs |
+<script src="https://www-infinity4.github.io/Mint-For-Infinity/infinity-wallet-menu.js" defer></script>
